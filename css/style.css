@@ -1,0 +1,431 @@
+/* h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal
+} */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(38, 51, 93);
+}
+
+.hero-section{
+    background-color: rgb(35, 14, 59);
+    height: 100px;
+  
+
+}
+
+.all_menu{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.brandname{
+  padding: 8px 0px 0px 20px;
+}
+
+.brandname h2{
+  color: rgb(252, 252, 252);
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(45, 6, 219, 0.39);
+  width: 200px;
+  text-align: center;
+ 
+}
+
+
+.brandname h2:hover {
+  background-color: rgb(7, 60, 73);
+}
+
+
+
+.aboutdetalis ul {
+   display:flex;
+    
+}
+
+.aboutdetalis ul li{
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.aboutdetalis ul li  a {
+  display: block;
+  color: white;
+  text-align: center;
+
+  padding-top: 35px;
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.aboutdetalis ul li a:hover {
+  background-color: rgb(50, 149, 241);
+  border: 1px solid rgb(198, 243, 92);
+  padding: 20px;
+
+  margin: 15px 10px;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.logdeatils ul li a:hover {
+  background-color: rgb(5, 5, 5);
+  border: 1px solid rgb(80, 189, 252);
+  padding: 10px 10px;
+  margin: 15px 10px;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+
+.logdeatils{
+  margin-right: 00px;
+}
+
+.logdeatils ul{
+  display:flex;
+}
+
+.logdeatils ul li{
+  list-style-type: none;
+  padding: 0px 15px;
+}
+
+.logdeatils ul li  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 35px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#join{
+  border: 1px solid rgb(229, 253, 6);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+ 
+  background-color: rgb(13, 85, 148);
+}
+
+.us_deatils{
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-around;
+  
+}
+
+
+
+.us_info{
+  
+  color: white;
+  padding-top: 4%;
+  
+
+}
+.us_info h1{
+  padding: 20px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+.us_info p{
+  color: white;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+ 
+  font-style: normal;
+}
+
+.moreinfo {
+  padding-top: 40px;
+
+}
+
+.moreinfo a{
+  text-decoration: none;
+  color: white;
+  padding: 15px ;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  background-color: rgb(40, 109, 109);
+  
+}
+.moreinfo a:hover{
+  background-color: blueviolet;
+}
+#Learn{
+  margin-left: 10px;
+}
+
+.imgside img{
+  width: 500px;
+
+}
+
+.course_card{
+  display: flex;
+  justify-content: center;
+  margin-left:10%;
+  margin-right: 10%;
+ 
+}
+
+.course img{
+  width: 30%;
+  
+
+}
+
+.course {
+  
+  color: rgb(253, 253, 253);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px;
+  margin-left: 50px;
+
+}
+
+.course h4{
+  background-color: white; 
+  color: rgb(20, 1, 1);
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+}
+
+.course p{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: white; 
+  color: black;
+
+}
+
+.hero-section::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* total viewers starts */
+
+.total_viwers{
+  display: flex;
+  color: white;
+  margin-top: 6%;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.total{
+  padding: 0px 25px;
+  text-align: center;
+}
+.total h1{
+   font-size: 45px;
+   color: blueviolet;
+  
+
+}
+.total p{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.total_viwers::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+ /* total viewers section ends  */
+
+ /* Most Popular Courses starts */
+.popular_Courses{
+  display: flex;
+  padding-top: 3%;
+  padding-left: 30%;
+  justify-content: center;
+}
+
+.popular_class{
+   color: white;
+   padding-top: 4%;
+}
+.popular_class h1{
+  padding-top: 20px;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+
+  font-style: normal
+}
+
+.popular_class p{
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal
+}
+
+
+
+#learn_more{
+  color: blueviolet;
+}
+ .popular_back img{
+  padding-left: 10%;
+  width: 50%;
+ }
+
+ .popular_Courses::after{
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+
+
+ /* Most Popular Courses ends */
+
+ /* our_course_section starts */
+
+
+ .our_course_section{
+  padding-left: 30%;
+  color: white;
+  
+
+ }
+ .courseall h4{
+  color: blueviolet;
+  padding-top: 10px;
+  font-size: 20px;
+ }
+
+ .courseall h1{
+  padding-top: 15px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal
+ }
+
+ .courseall p{
+  padding-top: 15px;
+  font-family: "Roboto", sans-serif;
+
+ }
+
+ .our_course_section::after{
+  content: "";
+  display: table;
+  clear: both;
+ }
+ /* course_list starts here */
+
+.class_card{
+  box-shadow: 0 4px 8px 0 rgba(250, 250, 250, 0.2);
+  transition: 0.3s;
+  width:20%;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.class_card img{
+  border-radius: 5px 5px 0 0;
+  width: 70%; 
+
+}
+
+.class_card .container {
+  padding: 2px 16px;
+  background-color: white;
+  color: rgb(255, 255, 255);
+}
+
+/* card details section starts here.... */
+
+.details_card{
+  width: 250px;
+  margin: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 1px white;
+}
+
+
+.card_bg{
+  background-image: url("img/course/card1.jpg");
+    padding: 100px;
+    background-size: cover;
+    background-color: white;
+}
+
+
+
+
+/* card details section ends here.... */
+
+ /* practice_advice start here */
+
+ .practice_advice{
+  color: white;
+  padding-left: 30%;
+ }
+ .practice_advice h4{
+  color: blueviolet;
+  padding-top: 10px;
+  font-size: 20px;
+ }
+
+ .practice_advice h1{
+  padding-top: 15px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal
+ }
+ .practice_advice p{
+  padding-top: 15px;
+  font-family: "Roboto", sans-serif;
+
+ }
+ /* coupe section starts  */
+
+
+.coupon_card1{
+  width: 280px;
+  height: 800px;
+  padding: 100px;
+ 
+  color: white;
+}
+
+.icon_heart{
+  background-color: white;
+}
+ /* coupe section  ends */
